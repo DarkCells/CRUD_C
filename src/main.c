@@ -1,4 +1,4 @@
-//Dayana da Cruz Garcia e Isaac de Sousa Menezes
+//Autor: DarkCells
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
