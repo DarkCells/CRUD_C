@@ -1,18 +1,20 @@
- typedef struct unidade{ 
- unsigned long int cod; 
+#include <stdio.h>
+
+typedef struct unidade{ 
+unsigned long int cod; 
 char nome[40]; 
 int item[40];
 struct lista_uni* prox_uni;   
 } Uni;
 
 
- typedef struct produto{
-     char nome[40];
-     char quantidade[40];
-     unsigned long int codigo;
-     char  preco[40];
-     struct lista* prox;   
-   }PROD;
+typedef struct produto{
+char nome[40];
+char quantidade[40];
+unsigned long int codigo;
+char  preco[40];
+struct lista* prox;   
+}PROD;
    
    PROD* adicionar_produto(PROD* primeiro);
    void listar_produto(PROD* primeiro);

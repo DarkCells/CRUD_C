@@ -1,19 +1,26 @@
-//Autor: DarkCells
+/*
+Autor: DarkCells
+
+Este arquivo de codigo foi desenvolvido no perído de estudos, ou seja, por meios
+de avaliações e de atividades de ESTRUTURAS DE DADOS. O paradgma deste documento
+é procedural
+
+Todos os direitos estão reservados, e este documento é livre para fins didáticos.
+@Licença GNU 3.0
+*/
+
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
 #include <stdlib.h>		
-#include index.h
+#include "index.h"
 
 int main(){
-  PROD *primeiro= NULL;
    int opcao;
   Uni *primeiro_uni= NULL;
-   while(opcao!='0')
-   {
+   while(opcao!='0') {
    	   }
-    
-   	      
+        
       printf("Cadastro de produtos\n ");
       printf("1 - Novo cadastro\n");
       printf("2 - Listar\n");      
@@ -29,10 +36,8 @@ int main(){
       
 	  	
 	  
-      switch(opcao)
-      {
+      switch(opcao){
          case '1':    
-         	
               fflush(stdin);
               system("cls");
               printf("Novo cadastro\n");
@@ -42,7 +47,6 @@ int main(){
          break;
          
          case '2':         
-         	
               system ("cls");
               printf(" Produtos cadastrados\n");
               
@@ -68,8 +72,7 @@ int main(){
          system("cls");
          break;
      
-      switch(opcao)
-      {
+      switch(opcao)  {
          case '5':    
          	
               fflush(stdin);
@@ -104,8 +107,6 @@ int main(){
          getch();
          system("cls");
          break;
-     
-
          
          case '0':        
               
